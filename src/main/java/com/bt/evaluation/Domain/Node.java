@@ -82,7 +82,7 @@ public class Node {
     public String printNodeStatus() {
         return this.name + " "
                 + this.nodeState.toString() + " "
-                + String.valueOf(this.monitoringTime) + " "
+                + this.monitoringTime + " "
                 + this.lastEventDetail;
     }
 }
